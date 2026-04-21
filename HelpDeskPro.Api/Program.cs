@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ── Services ────────────────────────────────────────────
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseInMemoryDatabase("HelpDeskProDb"));
 
@@ -23,13 +22,12 @@ builder.Services.AddSwaggerGen(c =>
     c.SwaggerDoc("v1", new() { Title = "HelpDesk Pro API", Version = "v1" });
 });
 
-// CORS für Frontend (Blazor läuft auf anderem Port)
 builder.Services.AddCors(opt =>
     opt.AddDefaultPolicy(p => p.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
 var app = builder.Build();
 
-// ── Seed-Daten ──────────────────────────────────────────
+// Seeder
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
@@ -55,7 +53,6 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
-// ── Middleware ──────────────────────────────────────────
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HelpDesk Pro v1"));
 app.UseCors();

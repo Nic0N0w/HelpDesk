@@ -65,7 +65,6 @@ public class TicketsController(ITicketRepository tickets, IEmailService emailSer
     public async Task<IActionResult> GetAll() =>
         Ok((await tickets.GetAllAsync()).Select(MapToResponse));
 
-    // ── Mapping ──────────────────────────────────────────
     private static TicketResponse MapToResponse(Ticket t) => new(
         t.Id, t.Title, t.Description, t.Status, t.Priority,
         t.CreatedAt, t.UpdatedAt,

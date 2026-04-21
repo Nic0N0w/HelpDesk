@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XYPy97y8bPA=",
+  "dgSpecHash": "f84zDi0JUJg=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxi\\Downloads\\HelpDeskPro_M1\\HelpDeskPro\\HelpDeskPro.Infrastructure\\HelpDeskPro.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\HelpDeskPro.Infrastructure\\HelpDeskPro.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
     "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.4\\microsoft.entityframeworkcore.abstractions.9.0.4.nupkg.sha512",

@@ -41,3 +41,47 @@ C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Api\obj\Debug\net
 C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.pdb
 C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.genruntimeconfig.cache
 C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Api\obj\Debug\net10.0\ref\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\refint\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\appsettings.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.staticwebassets.endpoints.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.exe
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.deps.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.runtimeconfig.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Infrastructure.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Core.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.AssemblyInfo.cs
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.sourcelink.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\scopedcss\bundle\HelpDeskPro.Api.styles.css
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDesk.E92A8FEC.Up2Date
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.genruntimeconfig.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Api\obj\Debug\net10.0\ref\HelpDeskPro.Api.dll
