@@ -1,0 +1,131 @@
+@page "/admin"
+@using HelpDeskPro.Frontend.Models
+@using HelpDeskPro.Frontend.Services
+@inject ApiService Api
+@inject AuthState Auth
+@inject NavigationManager Nav
+
+@if (Auth.CurrentUser?.Role != UserRole.Admin)
+{
+    <div class="alert-error">⛔ Kein Zugriff. Diese Seite ist nur für Admins.</div>
+    return;
+}
+
+<div class="page-header">
+    <h2>⚙️ Admin-Panel</h2>
+</div>
+
+@* ── Statistiken ── *@
+<div class="stats-grid">
+    <div class="stat-card">
+        <div class="stat-number">@allTickets.Count</div>
+        <div class="stat-label">Tickets gesamt</div>
+    </div>
+    <div class="stat-card stat-open">
+        <div class="stat-number">@allTickets.Count(t => t.Status == TicketStatus.Open)</div>
+        <div class="stat-label">Offen</div>
+    </div>
+    <div class="stat-card stat-progress">
+        <div class="stat-number">@allTickets.Count(t => t.Status == TicketStatus.InProgress)</div>
+        <div class="stat-label">In Bearbeitung</div>
+    </div>
+    <div class="stat-card stat-closed">
+        <div class="stat-number">@allTickets.Count(t => t.Status == TicketStatus.Closed)</div>
+        <div class="stat-label">Geschlossen</div>
+    </div>
+</div>
+
+@* ── Nicht zugewiesene Tickets ── *@
+<h3 style="margin: 24px 0 12px; color: #1F4E79;">🚨 Nicht zugewiesen (@unassigned.Count)</h3>
+
+@if (!unassigned.Any())
+{
+    <p class="empty">Alle Tickets sind zugewiesen. ✅</p>
+}
+else
+{
+    <table class="ticket-table">
+        <thead>
+            <tr>
+                <th>#</th><th>Titel</th><th>Priorität</th><th>Erstellt von</th><th>Zuweisen an</th><th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in unassigned)
+            {
+                <tr>
+                    <td>@t.Id</td>
+                    <td class="ticket-title" @onclick='() => Nav.NavigateTo($"/ticket/{t.Id}")'>@t.Title</td>
+                    <td><span class="badge badge-priority-@t.Priority.ToString().ToLower()">@t.Priority</span></td>
+                    <td>@t.CreatedByName</td>
+                    <td>
+                        <select class="form-select" style="width:180px"
+                            @onchange='e => pendingAssign[t.Id] = int.Parse(e.Value?.ToString() ?? "0")'>
+                            <option value="0">– wählen –</option>
+                            @foreach (var u in users)
+                            {
+                                <option value="@u.Id">@u.Name</option>
+                            }
+                        </select>
+                    </td>
+                    <td>
+                        <button class="btn-sm" @onclick="() => DoAssign(t.Id)">Zuweisen</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@* ── Alle Tickets ── *@
+<h3 style="margin: 28px 0 12px; color: #1F4E79;">📋 Alle Tickets</h3>
+<table class="ticket-table">
+    <thead>
+        <tr><th>#</th><th>Titel</th><th>Status</th><th>Priorität</th><th>Ersteller</th><th>Zugewiesen</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (var t in allTickets.OrderByDescending(t => t.Id))
+        {
+            <tr>
+                <td>@t.Id</td>
+                <td class="ticket-title" @onclick='() => Nav.NavigateTo($"/ticket/{t.Id}")'>@t.Title</td>
+                <td><span class="badge badge-@t.Status.ToString().ToLower()">@t.Status</span></td>
+                <td><span class="badge badge-priority-@t.Priority.ToString().ToLower()">@t.Priority</span></td>
+                <td>@t.CreatedByName</td>
+                <td>@(t.AssignedToName ?? "–")</td>
+                <td><button class="btn-sm" @onclick='() => Nav.NavigateTo($"/ticket/{t.Id}")'>Details</button></td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    List<TicketDto> allTickets = new();
+    List<TicketDto> unassigned = new();
+    List<UserDto> users = new();
+    Dictionary<int, int> pendingAssign = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var ticketsTask = Api.GetTicketsAsync();
+        var usersTask = Api.GetUsersAsync();
+        await Task.WhenAll(ticketsTask, usersTask);
+
+        allTickets = await ticketsTask ?? new();
+        users = await usersTask ?? new();
+        unassigned = allTickets.Where(t => t.AssignedToUserId is null && t.Status != TicketStatus.Closed).ToList();
+    }
+
+    async Task DoAssign(int ticketId)
+    {
+        if (!pendingAssign.TryGetValue(ticketId, out var userId) || userId == 0) return;
+        var updated = await Api.AssignTicketAsync(ticketId, userId);
+        if (updated is not null)
+        {
+            var idx = allTickets.FindIndex(t => t.Id == ticketId);
+            if (idx >= 0) allTickets[idx] = updated;
+            unassigned.RemoveAll(t => t.Id == ticketId);
+            pendingAssign.Remove(ticketId);
+        }
+    }
+}

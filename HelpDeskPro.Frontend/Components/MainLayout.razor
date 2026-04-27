@@ -1,4 +1,5 @@
 @inherits LayoutComponentBase
+@using HelpDeskPro.Frontend.Models
 @using HelpDeskPro.Frontend.Services
 @inject AuthState Auth
 @inject NavigationManager Nav
@@ -7,17 +8,21 @@
     <header class="topbar">
         <span class="logo">🖥️ HelpDesk Pro</span>
         <div class="user-info">
-            <span>@Auth.CurrentUser?.Name (@Auth.CurrentUser?.Role)</span>
+            <span class="user-badge">@Auth.CurrentUser?.Name
+                <span class="role-chip @(Auth.CurrentUser?.Role == UserRole.Admin ? "chip-admin" : "chip-user")">
+                    @Auth.CurrentUser?.Role
+                </span>
+            </span>
             <button class="btn-logout" @onclick="Logout">Abmelden</button>
         </div>
     </header>
 
     <nav class="sidebar">
-        <a href="/">📋 Alle Tickets</a>
-        <a href="/meine-tickets">👤 Meine Tickets</a>
-        @if (Auth.CurrentUser?.Role == HelpDeskPro.Frontend.Models.UserRole.Admin)
+        <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">📋 Alle Tickets</NavLink>
+        <NavLink class="nav-link" href="/meine-tickets">👤 Meine Tickets</NavLink>
+        @if (Auth.CurrentUser?.Role == UserRole.Admin)
         {
-            <a href="/admin">⚙️ Admin</a>
+            <NavLink class="nav-link" href="/admin">⚙️ Admin-Panel</NavLink>
         }
     </nav>
 
@@ -27,6 +32,9 @@
 </div>
 
 @code {
+    protected override void OnInitialized() => Auth.OnChange += StateHasChanged;
+    public void Dispose() => Auth.OnChange -= StateHasChanged;
+
     void Logout()
     {
         Auth.Logout();

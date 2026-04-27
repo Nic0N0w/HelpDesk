@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "xLFz1ZRtJB0=",
+  "dgSpecHash": "gagkv2DXN0g=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
+  "projectFilePath": "C:\\Users\\Bluey\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDeskPro_FINAL\\HelpDeskPro\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.6\\microsoft.aspnetcore.app.internal.assets.10.0.6.nupkg.sha512",
-    "C:\\Users\\Maxi\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.4\\microsoft.aspnetcore.components.web.9.0.4.nupkg.sha512"
+    "C:\\Users\\Bluey\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.5\\microsoft.aspnetcore.app.internal.assets.10.0.5.nupkg.sha512",
+    "C:\\Users\\Bluey\\.nuget\\packages\\microsoft.aspnetcore.components.web\\9.0.4\\microsoft.aspnetcore.components.web.9.0.4.nupkg.sha512"
   ],
   "logs": [
     {
       "code": "NU1510",
       "level": "Warning",
       "message": "PackageReference Microsoft.AspNetCore.Components.Web wird nicht gekürzt. Erwägen Sie, dieses Paket aus Ihren Abhängigkeiten zu entfernen, da es wahrscheinlich nicht erforderlich ist.",
-      "projectPath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
+      "projectPath": "C:\\Users\\Bluey\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDeskPro_FINAL\\HelpDeskPro\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
+      "filePath": "C:\\Users\\Bluey\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDeskPro_FINAL\\HelpDeskPro\\HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
       "libraryId": "Microsoft.AspNetCore.Components.Web",
       "targetGraphs": [
         "net10.0"

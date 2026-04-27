@@ -1,0 +1,210 @@
+@page "/ticket/{Id:int}"
+@using HelpDeskPro.Frontend.Models
+@using HelpDeskPro.Frontend.Services
+@inject ApiService Api
+@inject AuthState Auth
+@inject NavigationManager Nav
+
+@if (isLoading)
+{
+    <p class="loading">⏳ Ticket wird geladen…</p>
+}
+else if (ticket is null)
+{
+    <p class="empty">Ticket nicht gefunden. <a href="/">Zurück zur Liste</a></p>
+}
+else
+{
+    <div class="detail-header">
+        <button class="btn-back" @onclick='() => Nav.NavigateTo("/")'>← Zurück</button>
+        <h2>Ticket #@ticket.Id – @ticket.Title</h2>
+    </div>
+
+    <div class="detail-grid">
+        @* ── Info-Panel ── *@
+        <div class="detail-card">
+            <h3>Details</h3>
+            <div class="detail-row"><span class="label">Status</span>
+                <span class="badge badge-@ticket.Status.ToString().ToLower()">@ticket.Status</span>
+            </div>
+            <div class="detail-row"><span class="label">Priorität</span>
+                <span class="badge badge-priority-@ticket.Priority.ToString().ToLower()">@ticket.Priority</span>
+            </div>
+            <div class="detail-row"><span class="label">Erstellt von</span><span>@ticket.CreatedByName</span></div>
+            <div class="detail-row"><span class="label">Zugewiesen an</span><span>@(ticket.AssignedToName ?? "–")</span></div>
+            <div class="detail-row"><span class="label">Erstellt am</span><span>@ticket.CreatedAt.ToString("dd.MM.yyyy HH:mm")</span></div>
+            @if (ticket.UpdatedAt.HasValue)
+            {
+                <div class="detail-row"><span class="label">Geändert</span><span>@ticket.UpdatedAt.Value.ToString("dd.MM.yyyy HH:mm")</span></div>
+            }
+
+            <div class="detail-description">
+                <span class="label">Beschreibung</span>
+                <p>@ticket.Description</p>
+            </div>
+
+            @* ── Status-Änderung ── *@
+            @if (!string.IsNullOrEmpty(statusError))
+            {
+                <div class="alert-error">@statusError</div>
+            }
+            @if (!string.IsNullOrEmpty(statusSuccess))
+            {
+                <div class="alert-success">@statusSuccess</div>
+            }
+            <div class="action-group">
+                <label>Status ändern</label>
+                <div class="action-row">
+                    <select class="form-select" @bind="nextStatus">
+                        @foreach (var s in GetAllowedNextStatuses(ticket.Status.ToString()))
+                        {
+                            <option value="@s">@FormatStatusLabel(s)</option>
+                        }
+                    </select>
+                    <button class="btn-primary" @onclick="ChangeStatus" disabled="@isSavingStatus">
+                        @(isSavingStatus ? "…" : "Setzen")
+                    </button>
+                </div>
+            </div>
+
+            @* ── Zuweisung (nur Admin) ── *@
+            @if (Auth.CurrentUser?.Role == UserRole.Admin)
+            {
+                <div class="action-group">
+                    <label>Ticket zuweisen</label>
+                    <div class="action-row">
+                        <select class="form-select" @bind="assignUserId">
+                            <option value="0">– Benutzer wählen –</option>
+                            @foreach (var u in users)
+                            {
+                                <option value="@u.Id">@u.Name (@u.Role)</option>
+                            }
+                        </select>
+                        <button class="btn-secondary" @onclick="AssignTicket" disabled="@isSavingAssign">
+                            @(isSavingAssign ? "…" : "Zuweisen")
+                        </button>
+                    </div>
+                </div>
+            }
+        </div>
+
+        @* ── Kommentar-Panel ── *@
+        <div class="detail-card">
+            <h3>Kommentare (@ticket.Comments.Count)</h3>
+
+            @if (!ticket.Comments.Any())
+            {
+                <p class="empty-comments">Noch keine Kommentare.</p>
+            }
+            else
+            {
+                <div class="comments-list">
+                    @foreach (var c in ticket.Comments.OrderBy(c => c.CreatedAt))
+                    {
+                        <div class="comment-item">
+                            <div class="comment-meta">
+                                <strong>@c.AuthorName</strong>
+                                <span class="comment-date">@c.CreatedAt.ToString("dd.MM.yyyy HH:mm")</span>
+                            </div>
+                            <p class="comment-text">@c.Text</p>
+                        </div>
+                    }
+                </div>
+            }
+
+            @* ── Kommentar-Editor ── *@
+            <div class="comment-editor">
+                <label>Neuer Kommentar</label>
+                @if (!string.IsNullOrEmpty(commentError))
+                {
+                    <div class="alert-error">@commentError</div>
+                }
+                <textarea class="form-textarea" @bind="commentText" rows="3"
+                    placeholder="Kommentar eingeben…"></textarea>
+                <button class="btn-primary" @onclick="AddComment" disabled="@isSavingComment">
+                    @(isSavingComment ? "Wird gespeichert…" : "💬 Kommentar absenden")
+                </button>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    TicketDto? ticket;
+    List<UserDto> users = new();
+    bool isLoading = true;
+    bool isSavingStatus, isSavingAssign, isSavingComment;
+    string nextStatus = "Open";
+    string commentText = "", commentError = "", statusError = "", statusSuccess = "";
+    int assignUserId = 0;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadTicket();
+        users = await Api.GetUsersAsync() ?? new();
+    }
+
+    async Task LoadTicket()
+    {
+        isLoading = true;
+        ticket = await Api.GetTicketAsync(Id);
+        if (ticket is not null)
+        {
+            nextStatus = GetAllowedNextStatuses(ticket.Status.ToString()).FirstOrDefault() ?? ticket.Status.ToString();
+        }
+        isLoading = false;
+    }
+
+    async Task ChangeStatus()
+    {
+        statusError = ""; statusSuccess = "";
+        isSavingStatus = true;
+        var (updated, error) = await Api.UpdateStatusAsync(Id, nextStatus);
+        isSavingStatus = false;
+        if (updated is not null)
+        {
+            ticket = updated;
+            nextStatus = GetAllowedNextStatuses(ticket.Status.ToString()).FirstOrDefault() ?? ticket.Status.ToString();
+            statusSuccess = $"Status erfolgreich gesetzt.";
+        }
+        else statusError = error ?? "Statusänderung fehlgeschlagen.";
+    }
+
+    static IEnumerable<string> GetAllowedNextStatuses(string current)
+        => current switch
+        {
+            "Open" => ["InProgress"],
+            "InProgress" => ["Closed"],
+            "Closed" => ["Open"],
+            _ => [current]
+        };
+
+    static string FormatStatusLabel(string status)
+        => status switch
+        {
+            "InProgress" => "In Progress",
+            _ => status
+        };
+
+    async Task AssignTicket()
+    {
+        if (assignUserId == 0) return;
+        isSavingAssign = true;
+        var updated = await Api.AssignTicketAsync(Id, assignUserId);
+        isSavingAssign = false;
+        if (updated is not null) ticket = updated;
+    }
+
+    async Task AddComment()
+    {
+        commentError = "";
+        if (string.IsNullOrWhiteSpace(commentText)) { commentError = "Kommentar darf nicht leer sein."; return; }
+        isSavingComment = true;
+        var ok = await Api.AddCommentAsync(Id, commentText, Auth.CurrentUser!.Id);
+        isSavingComment = false;
+        if (ok) { commentText = ""; await LoadTicket(); }
+        else commentError = "Fehler beim Speichern des Kommentars.";
+    }
+}

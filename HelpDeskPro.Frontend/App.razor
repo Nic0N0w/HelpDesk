@@ -1,7 +1,5 @@
 @using HelpDeskPro.Frontend.Services
-@using Microsoft.AspNetCore.Components.Routing
 @inject AuthState Auth
-@implements IDisposable
 
 @if (!Auth.IsLoggedIn)
 {
@@ -9,18 +7,14 @@
 }
 else
 {
-    <Router AppAssembly="@typeof(App).Assembly"
-            Found="@((RouteData routeData) => (RenderFragment)(builder =>
-            {
-                builder.OpenComponent<RouteView>(0);
-                builder.AddAttribute(1, nameof(RouteView.RouteData), routeData);
-                builder.AddAttribute(2, nameof(RouteView.DefaultLayout), typeof(HelpDeskPro.Frontend.Components.MainLayout));
-                builder.CloseComponent();
-            }))"
-            NotFound="@((RenderFragment)(builder =>
-            {
-                builder.AddMarkupContent(0, "<p>Seite nicht gefunden.</p>");
-            }))" />
+    <Router AppAssembly="@typeof(App).Assembly">
+        <Found Context="routeData">
+            <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        </Found>
+        <NotFound>
+            <p>Seite nicht gefunden.</p>
+        </NotFound>
+    </Router>
 }
 
 @code {
