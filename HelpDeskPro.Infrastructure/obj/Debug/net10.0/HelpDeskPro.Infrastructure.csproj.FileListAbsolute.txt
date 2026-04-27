@@ -1,31 +1,15 @@
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.deps.json
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.dll
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.pdb
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfo.cs
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDesk.EA6F49B7.Up2Date
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\refint\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
-C:\Users\Maxi\Downloads\HelpDeskPro_M1\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\ref\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\refint\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.deps.json
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.dll
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.dll
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.pdb
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfo.cs
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.sourcelink.json
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDesk.EA6F49B7.Up2Date
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Infrastructure\obj\Debug\net10.0\ref\HelpDeskPro.Infrastructure.dll
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.deps.json
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.dll
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.dll
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\bin\Debug\net10.0\HelpDeskPro.Core.pdb
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.AssemblyInfo.cs
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDesk.EA6F49B7.Up2Date
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.dll
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\refint\HelpDeskPro.Infrastructure.dll
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
+C:\Users\Bluey\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDeskPro_FINAL\HelpDeskPro\HelpDeskPro.Infrastructure\obj\Debug\net10.0\ref\HelpDeskPro.Infrastructure.dll

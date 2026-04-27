@@ -14,9 +14,11 @@ public class Ticket
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
     public DateTime? UpdatedAt { get; set; }
 
+    // Foreign Keys
     public int CreatedByUserId { get; set; }
     public int? AssignedToUserId { get; set; }
 
+    // Navigation
     public User? CreatedBy { get; set; }
     public User? AssignedTo { get; set; }
     public ICollection<Comment> Comments { get; set; } = new List<Comment>();

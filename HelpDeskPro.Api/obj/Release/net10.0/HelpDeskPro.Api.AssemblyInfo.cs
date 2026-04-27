@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HelpDeskPro.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aeb7b9e94860262b76adfa42b24646c86897f9d9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("HelpDeskPro.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HelpDeskPro.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

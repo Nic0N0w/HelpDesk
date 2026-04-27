@@ -18,8 +18,15 @@ public interface IUserRepository
     Task<IEnumerable<User>> GetAllAsync();
 }
 
+public interface ICommentRepository
+{
+    Task<Comment> AddAsync(Comment comment);
+    Task<IEnumerable<Comment>> GetByTicketIdAsync(int ticketId);
+}
+
 public interface IEmailService
 {
     Task SendTicketCreatedAsync(Ticket ticket);
     Task SendStatusChangedAsync(Ticket ticket, TicketStatus oldStatus);
+    Task SendCommentAddedAsync(Ticket ticket, Comment comment);
 }

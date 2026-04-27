@@ -25,6 +25,7 @@ public class TicketRepository(AppDbContext db) : ITicketRepository
         await db.Tickets
             .Include(t => t.CreatedBy)
             .Include(t => t.AssignedTo)
+            .Include(t => t.Comments).ThenInclude(c => c.Author)
             .ToListAsync();
 
     public async Task<Ticket> CreateAsync(Ticket ticket)
@@ -50,4 +51,21 @@ public class UserRepository(AppDbContext db) : IUserRepository
 
     public async Task<IEnumerable<User>> GetAllAsync() =>
         await db.Users.ToListAsync();
+}
+
+public class CommentRepository(AppDbContext db) : ICommentRepository
+{
+    public async Task<Comment> AddAsync(Comment comment)
+    {
+        db.Comments.Add(comment);
+        await db.SaveChangesAsync();
+        return comment;
+    }
+
+    public async Task<IEnumerable<Comment>> GetByTicketIdAsync(int ticketId) =>
+        await db.Comments
+            .Include(c => c.Author)
+            .Where(c => c.TicketId == ticketId)
+            .OrderBy(c => c.CreatedAt)
+            .ToListAsync();
 }

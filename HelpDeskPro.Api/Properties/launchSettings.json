@@ -3,11 +3,10 @@
     "HelpDeskPro.Api": {
       "commandName": "Project",
       "launchBrowser": true,
-      "launchUrl": "swagger",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:5000"
+      "applicationUrl": "https://localhost:49714;http://localhost:49715"
     }
   }
 }

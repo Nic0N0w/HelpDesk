@@ -9,6 +9,7 @@ public class User
     public string Email { get; set; } = string.Empty;
     public UserRole Role { get; set; } = UserRole.Employee;
 
+    // Navigation
     public ICollection<Ticket> CreatedTickets { get; set; } = new List<Ticket>();
     public ICollection<Ticket> AssignedTickets { get; set; } = new List<Ticket>();
 }
