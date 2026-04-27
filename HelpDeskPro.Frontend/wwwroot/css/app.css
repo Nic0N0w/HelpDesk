@@ -1,0 +1,51 @@
+/* ── Reset & Base ────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f2f5; color: #1a1a2e; }
+
+/* ── Layout ──────────────────────────────────── */
+.layout { display: grid; grid-template-rows: 56px 1fr; grid-template-columns: 200px 1fr; min-height: 100vh; }
+.topbar { grid-column: 1 / -1; background: #1F4E79; color: white; display: flex; align-items: center; justify-content: space-between; padding: 0 24px; }
+.logo { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.5px; }
+.user-info { display: flex; align-items: center; gap: 16px; font-size: 0.9rem; }
+.btn-logout { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 6px 14px; border-radius: 6px; cursor: pointer; }
+.btn-logout:hover { background: rgba(255,255,255,0.25); }
+.sidebar { background: #16324f; padding: 24px 0; }
+.sidebar a { display: block; color: #b0c4de; padding: 12px 20px; text-decoration: none; font-size: 0.9rem; border-left: 3px solid transparent; transition: all 0.2s; }
+.sidebar a:hover { background: rgba(255,255,255,0.08); color: white; border-left-color: #4fc3f7; }
+.content { padding: 28px; overflow-y: auto; }
+
+/* ── Login ───────────────────────────────────── */
+.login-wrapper { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #1F4E79, #2e75b6); }
+.login-card { background: white; border-radius: 12px; padding: 40px 48px; width: 100%; max-width: 420px; box-shadow: 0 20px 60px rgba(0,0,0,0.3); }
+.login-card h1 { font-size: 1.8rem; color: #1F4E79; margin-bottom: 4px; }
+.subtitle { color: #666; margin-bottom: 28px; font-size: 0.9rem; }
+.form-group { margin-bottom: 18px; }
+.form-group label { display: block; font-size: 0.85rem; font-weight: 600; color: #333; margin-bottom: 6px; }
+.form-select, .form-input { width: 100%; padding: 10px 12px; border: 1.5px solid #d0d7de; border-radius: 7px; font-size: 0.95rem; outline: none; transition: border-color 0.2s; }
+.form-select:focus, .form-input:focus { border-color: #2e75b6; }
+.btn-primary { width: 100%; padding: 12px; background: #1F4E79; color: white; border: none; border-radius: 8px; font-size: 1rem; font-weight: 600; cursor: pointer; margin-top: 8px; transition: background 0.2s; }
+.btn-primary:hover:not(:disabled) { background: #2e75b6; }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+.alert-error { background: #fff0f0; border: 1px solid #ffcccc; color: #c0392b; padding: 10px 14px; border-radius: 7px; margin-bottom: 16px; font-size: 0.88rem; }
+.hint { margin-top: 16px; font-size: 0.8rem; color: #888; text-align: center; }
+
+/* ── Tickets Tabelle ─────────────────────────── */
+.ticket-table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
+.ticket-table th { background: #1F4E79; color: white; padding: 12px 16px; text-align: left; font-size: 0.85rem; font-weight: 600; }
+.ticket-table td { padding: 11px 16px; border-bottom: 1px solid #f0f2f5; font-size: 0.9rem; }
+.ticket-table tr:last-child td { border-bottom: none; }
+.ticket-table tr:hover td { background: #f5f8fc; }
+
+/* ── Status/Priority Badges ──────────────────── */
+.badge { padding: 3px 10px; border-radius: 20px; font-size: 0.78rem; font-weight: 600; }
+.badge-open { background: #e3f2fd; color: #1565c0; }
+.badge-inprogress { background: #fff8e1; color: #f57f17; }
+.badge-closed { background: #e8f5e9; color: #2e7d32; }
+.badge-priority-low { background: #f3f4f6; color: #555; }
+.badge-priority-medium { background: #fff3cd; color: #856404; }
+.badge-priority-high { background: #ffe0b2; color: #e65100; }
+.badge-priority-critical { background: #ffebee; color: #c62828; }
+
+/* ── Misc ────────────────────────────────────── */
+h2 { font-size: 1.4rem; color: #1F4E79; margin-bottom: 20px; }
+.loading { color: #888; font-style: italic; }

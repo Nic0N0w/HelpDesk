@@ -1,0 +1,55 @@
+@page "/"
+@using HelpDeskPro.Frontend.Models
+@using HelpDeskPro.Frontend.Services
+@inject ApiService Api
+@inject AuthState Auth
+
+<h2>📋 Alle Tickets</h2>
+
+@if (isLoading)
+{
+    <p class="loading">Tickets werden geladen…</p>
+}
+else if (tickets is null || !tickets.Any())
+{
+    <p>Keine Tickets gefunden.</p>
+}
+else
+{
+    <table class="ticket-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Titel</th>
+                <th>Status</th>
+                <th>Priorität</th>
+                <th>Erstellt von</th>
+                <th>Erstellt am</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var t in tickets)
+            {
+                <tr>
+                    <td>@t.Id</td>
+                    <td>@t.Title</td>
+                    <td><span class="badge badge-@t.Status.ToString().ToLower()">@t.Status</span></td>
+                    <td><span class="badge badge-priority-@t.Priority.ToString().ToLower()">@t.Priority</span></td>
+                    <td>@t.CreatedByName</td>
+                    <td>@t.CreatedAt.ToShortDateString()</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    List<TicketDto>? tickets;
+    bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try { tickets = await Api.GetTicketsAsync(); }
+        finally { isLoading = false; }
+    }
+}
