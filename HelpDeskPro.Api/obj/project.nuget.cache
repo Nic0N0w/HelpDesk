@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgeNTfTv/Yc=",
+  "dgSpecHash": "8TN/bWg0frI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nico\\OneDrive - Schulzentrum Ybbs\\_SHARE\\00_Maxi\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\HelpDeskPro.Api\\HelpDeskPro.Api.csproj",
+  "projectFilePath": "C:\\Users\\Nico\\source\\repos\\Nic0N0w\\HelpDesk\\HelpDeskPro.Api\\HelpDeskPro.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nico\\.nuget\\packages\\microsoft.data.sqlite.core\\9.0.4\\microsoft.data.sqlite.core.9.0.4.nupkg.sha512",
     "C:\\Users\\Nico\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.4\\microsoft.entityframeworkcore.9.0.4.nupkg.sha512",
