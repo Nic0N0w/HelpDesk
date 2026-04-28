@@ -1,0 +1,160 @@
+<Page x:Class="HelpDeskPro.Wpf.Views.TicketDetailPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Background="{StaticResource BackgroundBrush}"
+      Title="Ticket Detail">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="24">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Back + Title -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,16">
+                <Button Content="← Zurück" Click="Back_Click"
+                        Background="Transparent" BorderThickness="0"
+                        Foreground="{StaticResource AccentBrush}"
+                        FontSize="13" Cursor="Hand" Padding="0,0,16,0"/>
+                <TextBlock x:Name="TitleText" FontSize="20" FontWeight="Bold"
+                           Foreground="{StaticResource PrimaryBrush}" VerticalAlignment="Center"/>
+            </StackPanel>
+
+            <!-- Content Grid -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- ── Left: Info + Actions ── -->
+                <StackPanel Grid.Column="0">
+                    <Border Style="{StaticResource Card}" Margin="0,0,0,16">
+                        <StackPanel>
+                            <TextBlock Text="Details" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+
+                            <Grid x:Name="DetailsGrid" Margin="0,4"/>
+
+                            <TextBlock Text="Beschreibung" FontSize="12" FontWeight="SemiBold"
+                                       Foreground="#555555" Margin="0,12,0,4"/>
+                            <TextBlock x:Name="DescText" TextWrapping="Wrap" FontSize="13"
+                                       Foreground="#333333" LineHeight="20"/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Status ändern -->
+                    <Border Style="{StaticResource Card}" Margin="0,0,0,16">
+                        <StackPanel>
+                            <TextBlock Text="Status ändern" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+                            <Border x:Name="StatusErrorBorder" Background="#FFF0F0"
+                                    BorderBrush="#FFCCCC" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,8" Visibility="Collapsed">
+                                <TextBlock x:Name="StatusErrorText" Foreground="#C0392B" FontSize="12"/>
+                            </Border>
+                            <Border x:Name="StatusSuccessBorder" Background="#E8F5E9"
+                                    BorderBrush="#A5D6A7" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,8" Visibility="Collapsed">
+                                <TextBlock x:Name="StatusSuccessText" Foreground="#2E7D32" FontSize="12"/>
+                            </Border>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <ComboBox x:Name="StatusCombo" Grid.Column="0"
+                                          Style="{StaticResource ModernComboBox}">
+                                    <ComboBoxItem Content="Open"/>
+                                    <ComboBoxItem Content="InProgress"/>
+                                    <ComboBoxItem Content="Closed"/>
+                                </ComboBox>
+                                <Button Grid.Column="2" Content="Setzen"
+                                        Style="{StaticResource PrimaryButton}"
+                                        Click="ChangeStatus_Click"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Zuweisung (Admin only) -->
+                    <Border x:Name="AssignPanel" Style="{StaticResource Card}" Visibility="Collapsed">
+                        <StackPanel>
+                            <TextBlock Text="Ticket zuweisen" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <ComboBox x:Name="AssignCombo" Grid.Column="0"
+                                          Style="{StaticResource ModernComboBox}"
+                                          DisplayMemberPath="."/>
+                                <Button Grid.Column="2" Content="Zuweisen"
+                                        Style="{StaticResource SecondaryButton}"
+                                        Click="Assign_Click"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- ── Right: Kommentare ── -->
+                <Border Grid.Column="2" Style="{StaticResource Card}">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*" MinHeight="200" MaxHeight="320"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock x:Name="CommentHeader" Grid.Row="0" FontSize="15" FontWeight="Bold"
+                                   Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                            <ItemsControl x:Name="CommentsList">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="#F5F8FC" CornerRadius="8"
+                                                Padding="12,10" Margin="0,0,0,8">
+                                            <StackPanel>
+                                                <Grid Margin="0,0,0,4">
+                                                    <TextBlock Text="{Binding AuthorName}"
+                                                               FontWeight="Bold" FontSize="12"/>
+                                                    <TextBlock Text="{Binding CreatedAt, StringFormat=dd.MM.yyyy HH:mm}"
+                                                               HorizontalAlignment="Right"
+                                                               Foreground="#888888" FontSize="11"/>
+                                                </Grid>
+                                                <TextBlock Text="{Binding Text}" TextWrapping="Wrap"
+                                                           FontSize="13" Foreground="#333333"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+
+                        <!-- Kommentar Editor -->
+                        <StackPanel Grid.Row="2" Margin="0,12,0,0">
+                            <TextBlock Text="Neuer Kommentar" FontSize="12" FontWeight="SemiBold"
+                                       Foreground="#555555" Margin="0,0,0,6"/>
+                            <Border x:Name="CommentErrorBorder" Background="#FFF0F0"
+                                    BorderBrush="#FFCCCC" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,6" Visibility="Collapsed">
+                                <TextBlock x:Name="CommentErrorText" Foreground="#C0392B" FontSize="12"/>
+                            </Border>
+                            <TextBox x:Name="CommentBox" Style="{StaticResource ModernTextBox}"
+                                     AcceptsReturn="True" TextWrapping="Wrap"
+                                     Height="80" VerticalScrollBarVisibility="Auto"
+                                     Margin="0,0,0,8"/>
+                            <Button Content="💬 Kommentar absenden" Style="{StaticResource PrimaryButton}"
+                                    HorizontalAlignment="Stretch" Click="AddComment_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</Page>

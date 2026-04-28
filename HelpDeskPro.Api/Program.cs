@@ -29,6 +29,9 @@ builder.Services.AddCors(opt =>
 
 var app = builder.Build();
 
+// ── HTTP-Port konfigurieren (für WPF-Frontend-Zugriff) ──
+app.Urls.Add("http://0.0.0.0:5000");
+
 // ── Seed-Daten ──────────────────────────────────────────
 using (var scope = app.Services.CreateScope())
 {

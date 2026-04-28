@@ -7,7 +7,7 @@
         "Action": "Start"
       },
       {
-        "Path": "HelpDeskPro.Frontend\\HelpDeskPro.Frontend.csproj",
+        "Path": "HelpDeskPro.Wpf\\HelpDeskPro.Wpf.csproj",
         "Action": "Start"
       }
     ]
