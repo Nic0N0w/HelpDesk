@@ -1,6 +1,0 @@
-wwwroot\css\app.css
-C:\Users\Maxi\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.6\build\..\_framework\blazor.web.js
-C:\Users\Maxi\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.6\build\..\_framework\blazor.server.js
-C:\Users\Maxi\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.6\_framework\blazor.server.js
-C:\Users\Maxi\.nuget\packages\microsoft.aspnetcore.app.internal.assets\10.0.6\_framework\blazor.web.js
-C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\HelpDeskPro.Frontend\wwwroot\css\app.css

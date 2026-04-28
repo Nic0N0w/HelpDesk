@@ -18,10 +18,10 @@
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
-                        <Border x:Name="Bd" Background="{TemplateBinding Background}"
+                        <Border x:Name="Bd" Background="Transparent"
                                 BorderThickness="3,0,0,0" BorderBrush="Transparent">
-                            <ContentPresenter Margin="{TemplateBinding Padding}"
-                                              HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}"
+                            <ContentPresenter Margin="20,12"
+                                              HorizontalAlignment="Left"
                                               VerticalAlignment="Center"/>
                         </Border>
                         <ControlTemplate.Triggers>
@@ -63,25 +63,28 @@
                     <Border x:Name="RoleBadge" CornerRadius="10" Padding="8,2" Margin="0,0,16,0">
                         <TextBlock x:Name="RoleText" FontSize="11" FontWeight="Bold"/>
                     </Border>
-                    <Button Content="Abmelden" Click="LogoutButton_Click"
-                            Background="Transparent" Foreground="White"
-                            BorderBrush="#44FFFFFF" BorderThickness="1"
-                            Padding="12,5" Cursor="Hand">
+                    <!-- Abmelden Button - ohne TemplateBinding -->
+                    <Button Content="Abmelden" Click="LogoutButton_Click" Cursor="Hand">
                         <Button.Template>
                             <ControlTemplate TargetType="Button">
-                                <Border Background="{TemplateBinding Background}"
-                                        BorderBrush="{TemplateBinding BorderBrush}"
-                                        BorderThickness="{TemplateBinding BorderThickness}"
-                                        CornerRadius="5" Padding="{TemplateBinding Padding}">
+                                <Border x:Name="logoutBorder"
+                                        Background="Transparent"
+                                        BorderBrush="#44FFFFFF"
+                                        BorderThickness="1"
+                                        CornerRadius="5"
+                                        Padding="12,5">
                                     <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
                                 </Border>
                                 <ControlTemplate.Triggers>
                                     <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#22FFFFFF"/>
+                                        <Setter TargetName="logoutBorder" Property="Background" Value="#22FFFFFF"/>
                                     </Trigger>
                                 </ControlTemplate.Triggers>
                             </ControlTemplate>
                         </Button.Template>
+                        <Button.Foreground>
+                            <SolidColorBrush Color="White"/>
+                        </Button.Foreground>
                     </Button>
                 </StackPanel>
             </Grid>

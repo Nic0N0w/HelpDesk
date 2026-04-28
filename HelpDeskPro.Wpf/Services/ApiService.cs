@@ -11,7 +11,6 @@ public class ApiService
     public ApiService(HttpClient http)
     {
         _http = http;
-        // BaseAddress wird in App.xaml.cs konfiguriert
     }
 
     // ── Tickets ─────────────────────────────────────────
@@ -36,12 +35,23 @@ public class ApiService
             ? await resp.Content.ReadFromJsonAsync<TicketDto>() : null;
     }
 
-    public async Task<(TicketDto? ticket, string? error)> UpdateStatusAsync(int id, string newStatus)
+    public async Task<(TicketDto? ticket, string? error)> UpdateStatusAsync(int id, string newStatusString)
     {
-        var resp = await _http.PatchAsJsonAsync($"api/tickets/{id}/status", new { NewStatus = newStatus });
+        // Die API erwartet einen Integer (Enum-Wert): 0=Open, 1=InProgress, 2=Closed
+        int newStatusInt = newStatusString switch
+        {
+            "Open" => 0,
+            "InProgress" => 1,
+            "Closed" => 2,
+            _ => 0
+        };
+
+        var resp = await _http.PatchAsJsonAsync($"api/tickets/{id}/status", new { NewStatus = newStatusInt });
         if (resp.IsSuccessStatusCode)
             return (await resp.Content.ReadFromJsonAsync<TicketDto>(), null);
-        return (null, await resp.Content.ReadAsStringAsync());
+
+        var errorBody = await resp.Content.ReadAsStringAsync();
+        return (null, errorBody);
     }
 
     public async Task<TicketDto?> AssignTicketAsync(int id, int userId)
