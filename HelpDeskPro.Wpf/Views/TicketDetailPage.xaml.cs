@@ -100,12 +100,10 @@ public partial class TicketDetailPage : Page
         DetailsGrid.Children.Add(lbl);
         DetailsGrid.Children.Add(val);
 
-        // Separator
         if (row > 0)
         {
             var sep = new Separator { Foreground = System.Windows.Media.Brushes.LightGray };
             Grid.SetRow(sep, row); Grid.SetColumnSpan(sep, 2);
-            // insert before - just use margin as separator visual
         }
     }
 

@@ -71,7 +71,7 @@
         <!-- DataGrid -->
         <Border Grid.Row="2" Style="{StaticResource Card}" Padding="0">
             <DataGrid x:Name="TicketGrid" Style="{StaticResource ModernDataGrid}"
-                      MouseDoubleClick="TicketGrid_DoubleClick">
+                      MouseDoubleClick="TicketGrid_DoubleClick" SelectionChanged="TicketGrid_SelectionChanged">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="#" Binding="{Binding Id}" Width="50"/>
                     <DataGridTextColumn Header="Titel" Binding="{Binding Title}" Width="*"/>

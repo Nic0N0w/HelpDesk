@@ -16,7 +16,6 @@ public partial class App : Application
 
         try
         {
-            // Für https mit Self-Signed Certificate: Handler ignoriert Zertifikat-Fehler
             var httpClientHandler = new System.Net.Http.HttpClientHandler()
             {
                 ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => true
@@ -36,7 +35,6 @@ public partial class App : Application
 
             Services = services.BuildServiceProvider();
 
-            // Register converters immediately (before any windows are created)
             RegisterConverters();
 
             var login = Services.GetRequiredService<LoginWindow>();

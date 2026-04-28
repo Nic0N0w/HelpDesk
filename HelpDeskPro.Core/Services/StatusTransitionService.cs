@@ -1,19 +1,13 @@
 using HelpDeskPro.Core.Enums;
 
 namespace HelpDeskPro.Core.Services;
-
-/// <summary>
-/// Validiert erlaubte Statusübergänge:
-/// Open → InProgress → Closed
-/// Closed → Open (Reopen)
-/// </summary>
 public class StatusTransitionService
 {
     private static readonly Dictionary<TicketStatus, TicketStatus[]> _allowed = new()
     {
         { TicketStatus.Open,       [TicketStatus.InProgress] },
         { TicketStatus.InProgress, [TicketStatus.Closed] },
-        { TicketStatus.Closed,     [TicketStatus.Open] },   // Reopen
+        { TicketStatus.Closed,     [TicketStatus.Open] }, 
     };
 
     public bool IsAllowed(TicketStatus current, TicketStatus next)

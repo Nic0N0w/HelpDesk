@@ -2,7 +2,7 @@ using HelpDeskPro.Core.Enums;
 
 namespace HelpDeskPro.Api.Dtos;
 
-// ── Ticket ──────────────────────────────────────────────
+// Ticket
 public record CreateTicketRequest(
     string Title,
     string Description,
@@ -27,7 +27,7 @@ public record TicketResponse(
     IEnumerable<CommentResponse> Comments
 );
 
-// ── Comment ─────────────────────────────────────────────
+// Comment
 public record AddCommentRequest(string Text, int AuthorId);
 
 public record AssignTicketRequest(int AssignedToUserId);
@@ -40,10 +40,10 @@ public record CommentResponse(
     string AuthorName
 );
 
-// ── User ────────────────────────────────────────────────
+// User
 public record UserResponse(int Id, string Name, string Email, UserRole Role);
 
-// ── Filter ──────────────────────────────────────────────
+// Filter
 public record TicketFilterRequest(
     TicketStatus? Status,
     Priority? Priority,

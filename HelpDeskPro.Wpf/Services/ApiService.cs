@@ -13,7 +13,7 @@ public class ApiService
         _http = http;
     }
 
-    // ── Tickets ─────────────────────────────────────────
+    // Tickets
     public Task<List<TicketDto>?> GetTicketsAsync(
         string? status = null, string? priority = null, string? search = null)
     {
@@ -37,7 +37,7 @@ public class ApiService
 
     public async Task<(TicketDto? ticket, string? error)> UpdateStatusAsync(int id, string newStatusString)
     {
-        // Die API erwartet einen Integer (Enum-Wert): 0=Open, 1=InProgress, 2=Closed
+        // 0=Open, 1=InProgress, 2=Closed
         int newStatusInt = newStatusString switch
         {
             "Open" => 0,
@@ -68,11 +68,11 @@ public class ApiService
         return resp.IsSuccessStatusCode;
     }
 
-    // ── Users ────────────────────────────────────────────
+    // Users
     public Task<List<UserDto>?> GetUsersAsync() =>
         _http.GetFromJsonAsync<List<UserDto>>("api/users");
 
-    // ── Helper ───────────────────────────────────────────
+    // Helper
     private static string BuildQuery(string baseUrl, string? status, string? priority, string? search)
     {
         var parts = new List<string>();

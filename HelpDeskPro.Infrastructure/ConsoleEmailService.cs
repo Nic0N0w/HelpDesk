@@ -4,10 +4,6 @@ using HelpDeskPro.Core.Models;
 
 namespace HelpDeskPro.Infrastructure;
 
-/// <summary>
-/// Mock-Implementierung: Gibt E-Mails in die Konsole aus.
-/// Einfach durch echten SMTP-Service ersetzbar (IEmailService implementieren).
-/// </summary>
 public class ConsoleEmailService : IEmailService
 {
     public Task SendTicketCreatedAsync(Ticket ticket)
