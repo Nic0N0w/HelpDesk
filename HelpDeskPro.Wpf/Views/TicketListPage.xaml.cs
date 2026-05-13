@@ -65,4 +65,9 @@ public partial class TicketListPage : Page
         if (dlg.ShowDialog() == true)
             _ = LoadTickets();
     }
+
+    private void TicketGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    {
+
+    }
 }

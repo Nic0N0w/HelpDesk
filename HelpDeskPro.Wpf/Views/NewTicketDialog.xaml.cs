@@ -36,7 +36,6 @@ public partial class NewTicketDialog : Window
         if (result is not null)
         {
             DialogResult = true;
-            Close();
         }
         else
         {
@@ -48,6 +47,5 @@ public partial class NewTicketDialog : Window
     private void Cancel_Click(object sender, RoutedEventArgs e)
     {
         DialogResult = false;
-        Close();
     }
 }
