@@ -22,14 +22,14 @@ public partial class App : Application
             };
 
             var services = new ServiceCollection();
-            services.AddHttpClient<ApiService>()
-                .ConfigureHttpClient(client => 
+
+            services.AddSingleton<AuthState>();
+            services.AddHttpClient<ApiService>((sp, client) =>
                 {
                     client.BaseAddress = new Uri("http://localhost:5000/");
                 })
                 .ConfigurePrimaryHttpMessageHandler(() => httpClientHandler);
 
-            services.AddSingleton<AuthState>();
             services.AddTransient<LoginWindow>();
             services.AddTransient<MainWindow>();
 

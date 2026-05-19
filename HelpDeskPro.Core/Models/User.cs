@@ -15,6 +15,11 @@ public class User
     [EmailAddress]
     [StringLength(255)]
     public string Email { get; set; } = string.Empty;
+
+    [Required]
+    [StringLength(255)]
+    public string PasswordHash { get; set; } = string.Empty;
+
     public UserRole Role { get; set; } = UserRole.Employee;
 
     // Navigation

@@ -3,6 +3,29 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HelpDeskPro.Api.Dtos;
 
+// Auth
+public record LoginRequest(
+    [Required]
+    [EmailAddress]
+    string Email,
+    [Required]
+    [StringLength(100, MinimumLength = 6)]
+    string Password
+);
+
+public record LoginResponse(
+    int UserId,
+    [Required]
+    [StringLength(100)]
+    string Name,
+    [Required]
+    [EmailAddress]
+    string Email,
+    UserRole Role,
+    [Required]
+    string Token
+);
+
 // Ticket
 public record CreateTicketRequest(
     [Required]

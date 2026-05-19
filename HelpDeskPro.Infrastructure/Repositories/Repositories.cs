@@ -49,6 +49,9 @@ public class UserRepository(AppDbContext db) : IUserRepository
     public async Task<User?> GetByIdAsync(int id) =>
         await db.Users.FirstOrDefaultAsync(u => u.Id == id);
 
+    public async Task<User?> GetByEmailAsync(string email) =>
+        await db.Users.FirstOrDefaultAsync(u => u.Email == email);
+
     public async Task<IEnumerable<User>> GetAllAsync() =>
         await db.Users.ToListAsync();
 }

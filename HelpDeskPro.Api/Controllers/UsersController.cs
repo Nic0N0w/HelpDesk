@@ -1,12 +1,14 @@
 using HelpDeskPro.Api.Dtos;
 using HelpDeskPro.Core.Interfaces;
 using HelpDeskPro.Core.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HelpDeskPro.Api.Controllers;
 
 [ApiController]
 [Route("api/users")]
+[Authorize]
 public class UsersController(IUserRepository users, ITicketRepository tickets) : ControllerBase
 {
     // GET /api/users

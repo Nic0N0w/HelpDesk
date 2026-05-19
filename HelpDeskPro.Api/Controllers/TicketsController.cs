@@ -2,6 +2,7 @@ using HelpDeskPro.Api.Dtos;
 using HelpDeskPro.Core.Interfaces;
 using HelpDeskPro.Core.Models;
 using HelpDeskPro.Core.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -9,6 +10,7 @@ namespace HelpDeskPro.Api.Controllers;
 
 [ApiController]
 [Route("api/tickets")]
+[Authorize]
 public class TicketsController(
     ITicketRepository tickets,
     ICommentRepository comments,

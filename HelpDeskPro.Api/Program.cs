@@ -5,7 +5,10 @@ using HelpDeskPro.Core.Services;
 using HelpDeskPro.Infrastructure;
 using HelpDeskPro.Infrastructure.Data;
 using HelpDeskPro.Infrastructure.Repositories;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +22,29 @@ builder.Services.AddScoped<IEmailService, ConsoleEmailService>();
 builder.Services.AddScoped<StatusTransitionService>();
 builder.Services.AddScoped<TicketFilterService>();
 
+// Add JWT Service
+var jwtSecret = builder.Configuration["JwtSecret"] ?? "your-secret-key-min-32-characters-long!";
+builder.Services.AddScoped(sp => new JwtService(jwtSecret, expirationMinutes: 1440));
+
+// Add JWT Authentication
+var key = Encoding.UTF8.GetBytes(jwtSecret);
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = new SymmetricSecurityKey(key),
+            ValidateIssuer = true,
+            ValidIssuer = "HelpDeskPro",
+            ValidateAudience = true,
+            ValidAudience = "HelpDeskProClient",
+            ValidateLifetime = true,
+            ClockSkew = TimeSpan.Zero
+        };
+    });
+
+builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>
@@ -34,14 +60,44 @@ app.Urls.Add("http://0.0.0.0:5000");
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.EnsureDeleted();
     db.Database.EnsureCreated();
     if (!db.Users.Any())
     {
+        // Demo Passwords: Password123!, Password456!, Password789!, Password000!
         db.Users.AddRange(
-            new User { Id = 1, Name = "Admin Anna", Email = "anna@firma.at", Role = UserRole.Admin },
-            new User { Id = 2, Name = "Max Mustermann", Email = "max@firma.at", Role = UserRole.Employee },
-            new User { Id = 3, Name = "Lisa Maier", Email = "lisa@firma.at", Role = UserRole.Employee },
-            new User { Id = 4, Name = "Tom Berger", Email = "tom@firma.at", Role = UserRole.Employee }
+            new User 
+            { 
+                Id = 1, 
+                Name = "Admin Anna", 
+                Email = "anna@firma.at", 
+                Role = UserRole.Admin,
+                PasswordHash = PasswordService.HashPassword("Password123!")
+            },
+            new User 
+            { 
+                Id = 2, 
+                Name = "Max Mustermann", 
+                Email = "max@firma.at", 
+                Role = UserRole.Employee,
+                PasswordHash = PasswordService.HashPassword("Password456!")
+            },
+            new User 
+            { 
+                Id = 3, 
+                Name = "Lisa Maier", 
+                Email = "lisa@firma.at", 
+                Role = UserRole.Employee,
+                PasswordHash = PasswordService.HashPassword("Password789!")
+            },
+            new User 
+            { 
+                Id = 4, 
+                Name = "Tom Berger", 
+                Email = "tom@firma.at", 
+                Role = UserRole.Employee,
+                PasswordHash = PasswordService.HashPassword("Password000!")
+            }
         );
         db.SaveChanges();
 
@@ -70,5 +126,7 @@ using (var scope = app.Services.CreateScope())
 app.UseSwagger();
 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "HelpDesk Pro v1"));
 app.UseCors();
+app.UseAuthentication();
+app.UseAuthorization();
 app.MapControllers();
 app.Run();
