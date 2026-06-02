@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="App.axaml" value="HelpDeskPro.Avalonia.csproj" />
+        <entry key="Views/LoginWindow.axaml" value="HelpDeskPro.Avalonia.csproj" />
+        <entry key="Views/MainWindow.axaml" value="HelpDeskPro.Avalonia.csproj" />
+        <entry key="Views/Pages/AdminPage.axaml" value="HelpDeskPro.Avalonia.csproj" />
+        <entry key="Views/Pages/MyTicketsPage.axaml" value="HelpDeskPro.Avalonia.csproj" />
+        <entry key="Views/Pages/TicketListPage.axaml" value="HelpDeskPro.Avalonia.csproj" />
+      </map>
+    </option>
+  </component>
+</project>
