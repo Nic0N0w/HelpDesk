@@ -42,9 +42,6 @@ tom@firma.at → Password000! (Employee)
 - System.IdentityModel.Tokens.Jwt 8.2.1
 - Microsoft.AspNetCore.Authentication.JwtBearer 10.0.0
 
-### 📝 Dokumentation
-- **AUTHENTICATION.md**: Umfassende API & Security-Dokumentation
-- **IMPLEMENTATION_SUMMARY.md**: Implementierungs-Checkliste
 
 ### ❌ Removed
 - Demo-Login mit Dropdown
