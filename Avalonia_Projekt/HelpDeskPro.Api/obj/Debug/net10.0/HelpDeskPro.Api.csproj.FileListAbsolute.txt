@@ -1,0 +1,449 @@
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.staticwebassets.endpoints.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.exe
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.deps.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.runtimeconfig.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfo.cs
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/scopedcss/bundle/HelpDeskPro.Api.styles.css
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDesk.E92A8FEC.Up2Date
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/refint/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.genruntimeconfig.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDeskPro_FINAL/HelpDeskPro/HelpDeskPro.Api/obj/Debug/net10.0/ref/HelpDeskPro.Api.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.staticwebassets.endpoints.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.exe
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.deps.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.runtimeconfig.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.pdb
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.pdb
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfo.cs
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.sourcelink.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/scopedcss/bundle/HelpDeskPro.Api.styles.css
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.upToDateCheck.txt
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDesk.E92A8FEC.Up2Date
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/refint/HelpDeskPro.Api.dll
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.genruntimeconfig.cache
+C:/Users/Nico/source/repos/Nic0N0w/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/ref/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.staticwebassets.endpoints.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.exe
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.deps.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.runtimeconfig.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.pdb
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.pdb
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfo.cs
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.sourcelink.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/scopedcss/bundle/HelpDeskPro.Api.styles.css
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDesk.E92A8FEC.Up2Date
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/refint/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.genruntimeconfig.cache
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/ref/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.upToDateCheck.txt
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/refint/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.Development.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.staticwebassets.endpoints.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.exe
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.deps.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.runtimeconfig.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.dll
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.pdb
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfo.cs
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.sourcelink.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/scopedcss/bundle/HelpDeskPro.Api.styles.css
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.development.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/swae.build.ex.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.upToDateCheck.txt
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDesk.E92A8FEC.Up2Date
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.genruntimeconfig.cache
+C:/Users/Bluey/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/ref/HelpDeskPro.Api.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/BCrypt.Net-Next.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+C:/Users/Maxi/OneDrive - Schulzentrum Ybbs/Dokumente/Schule/4.Klasse/SEW/WPF_Projekt/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.Development.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/appsettings.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.staticwebassets.endpoints.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.deps.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.runtimeconfig.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Api.pdb
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/BCrypt.Net-Next.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Data.Sqlite.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.EntityFrameworkCore.Sqlite.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.Extensions.DependencyModel.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Abstractions.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Logging.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.IdentityModel.Tokens.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Microsoft.OpenApi.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.batteries_v2.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.core.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/SQLitePCLRaw.provider.e_sqlite3.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/browser-wasm/nativeassets/net9.0/e_sqlite3.a
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-arm64/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-armel/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-mips64/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-s390x/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-ppc64le/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-s390x/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x64/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/linux-x86/native/libe_sqlite3.so
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-arm64/native/libe_sqlite3.dylib
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/maccatalyst-x64/native/libe_sqlite3.dylib
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-arm64/native/libe_sqlite3.dylib
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/osx-x64/native/libe_sqlite3.dylib
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm/native/e_sqlite3.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-arm64/native/e_sqlite3.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Core.pdb
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/bin/Debug/net10.0/HelpDeskPro.Infrastructure.pdb
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.AssemblyReference.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rpswa.dswa.cache.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfoInputs.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.AssemblyInfo.cs
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.sourcelink.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjimswa.dswa.cache.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmrazor.dswa.cache.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/rjsmcshtml.dswa.cache.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/scopedcss/bundle/HelpDeskPro.Api.styles.css
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.json.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.development.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/staticwebassets.build.endpoints.json
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/swae.build.ex.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDesk.E92A8FEC.Up2Date
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/refint/HelpDeskPro.Api.dll
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.pdb
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/HelpDeskPro.Api.genruntimeconfig.cache
+/Users/nico/Documents/03_Helpdesk/HelpDesk/HelpDeskPro.Api/obj/Debug/net10.0/ref/HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\appsettings.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.staticwebassets.endpoints.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.exe
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.deps.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.runtimeconfig.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Api.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\BCrypt.Net-Next.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.Data.Sqlite.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Sqlite.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\SQLitePCLRaw.batteries_v2.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\SQLitePCLRaw.core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\SQLitePCLRaw.provider.e_sqlite3.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\browser-wasm\nativeassets\net9.0\e_sqlite3.a
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-arm\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-arm64\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-armel\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-mips64\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-musl-s390x\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-s390x\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-x64\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\linux-x86\native\libe_sqlite3.so
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\osx-arm64\native\libe_sqlite3.dylib
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\osx-x64\native\libe_sqlite3.dylib
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\win-arm\native\e_sqlite3.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\win-arm64\native\e_sqlite3.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\win-x64\native\e_sqlite3.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Infrastructure.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Core.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\bin\Debug\net10.0\HelpDeskPro.Infrastructure.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.csproj.AssemblyReference.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.AssemblyInfoInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.AssemblyInfo.cs
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.csproj.CoreCompileInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\scopedcss\bundle\HelpDeskPro.Api.styles.css
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDesk.E92A8FEC.Up2Date
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\refint\HelpDeskPro.Api.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\HelpDeskPro.Api.genruntimeconfig.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Api\obj\Debug\net10.0\ref\HelpDeskPro.Api.dll

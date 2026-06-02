@@ -1,0 +1,94 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="HelpDeskPro.Avalonia.Views.MainWindow"
+        Title="HelpDesk Pro"
+        Height="700" Width="1100"
+        MinHeight="600" MinWidth="900"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource BackgroundBrush}">
+
+    <Window.Styles>
+        <Style Selector="Button.NavBtn">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Foreground" Value="#B0C4DE"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="20,12"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        </Style>
+        <Style Selector="Button.NavBtn:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="#1AFFFFFF"/>
+        </Style>
+        <Style Selector="Button.NavBtn:pointerover">
+            <Setter Property="Foreground" Value="White"/>
+        </Style>
+        <Style Selector="Button.NavBtnActive">
+            <Setter Property="Background" Value="#1AFFFFFF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderThickness" Value="3,0,0,0"/>
+            <Setter Property="BorderBrush" Value="#4FC3F7"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="Padding" Value="17,12"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="HorizontalAlignment" Value="Stretch"/>
+        </Style>
+    </Window.Styles>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="56"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ── Topbar ── -->
+        <Border Grid.Row="0" Grid.ColumnSpan="2" Background="{StaticResource PrimaryBrush}">
+            <Grid Margin="20,0">
+                <TextBlock Text="🖥️ HelpDesk Pro" Foreground="White" FontSize="18"
+                           FontWeight="Bold" VerticalAlignment="Center"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right"
+                            VerticalAlignment="Center">
+                    <TextBlock x:Name="UserNameText" Foreground="White" FontSize="13"
+                               VerticalAlignment="Center" Margin="0,0,8,0"
+                               Text=""/>
+                    <Border x:Name="RoleBadge" CornerRadius="10" Padding="8,2"
+                            Margin="0,0,16,0" Background="#2196F3">
+                        <TextBlock x:Name="RoleText" FontSize="11" FontWeight="Bold"
+                                   Foreground="White" Text=""/>
+                    </Border>
+                    <Button Content="Abmelden" Click="LogoutButton_Click" Cursor="Hand"
+                            Background="Transparent" Foreground="White"
+                            BorderBrush="#44FFFFFF" BorderThickness="1"
+                            CornerRadius="5" Padding="12,5"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- ── Sidebar ── -->
+        <Border Grid.Row="1" Grid.Column="0" Background="#16324F">
+            <StackPanel Margin="0,16,0,0">
+                <Button x:Name="BtnAllTickets" Content="📋  Alle Tickets"
+                        Click="Navigate_AllTickets"
+                        Classes="NavBtnActive"/>
+                <Button x:Name="BtnMyTickets" Content="👤  Meine Tickets"
+                        Click="Navigate_MyTickets"
+                        Classes="NavBtn"/>
+                <Button x:Name="BtnAdmin" Content="⚙️  Admin-Panel"
+                        Click="Navigate_Admin"
+                        Classes="NavBtn"
+                        IsVisible="False"/>
+            </StackPanel>
+        </Border>
+
+        <!-- ── Content Area ── -->
+        <ContentControl x:Name="ContentArea"
+                        Grid.Row="1" Grid.Column="1"
+                        Background="{StaticResource BackgroundBrush}"/>
+    </Grid>
+</Window>

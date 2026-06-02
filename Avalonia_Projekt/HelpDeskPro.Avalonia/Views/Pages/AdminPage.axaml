@@ -1,0 +1,96 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="HelpDeskPro.Avalonia.Views.Pages.AdminPage"
+             Background="{StaticResource BackgroundBrush}">
+
+    <ScrollViewer>
+        <Grid Margin="24">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <TextBlock Grid.Row="0" Text="⚙️ Admin-Panel" FontSize="22" FontWeight="Bold"
+                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,20"/>
+
+            <!-- Stats -->
+            <Grid Grid.Row="1" Margin="0,0,0,24">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="8"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="8"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="8"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="0" Classes="Card">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock x:Name="TotalCount" Text="0" FontSize="32" FontWeight="Black"
+                                   Foreground="{StaticResource PrimaryBrush}" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Gesamt" Foreground="#777777" FontSize="12" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="2" Classes="Card">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock x:Name="OpenCount" Text="0" FontSize="32" FontWeight="Black"
+                                   Foreground="#1565C0" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Offen" Foreground="#777777" FontSize="12" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="4" Classes="Card">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock x:Name="InProgressCount" Text="0" FontSize="32" FontWeight="Black"
+                                   Foreground="#F57F17" HorizontalAlignment="Center"/>
+                        <TextBlock Text="In Bearbeitung" Foreground="#777777" FontSize="12" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+                <Border Grid.Column="6" Classes="Card">
+                    <StackPanel HorizontalAlignment="Center">
+                        <TextBlock x:Name="ClosedCount" Text="0" FontSize="32" FontWeight="Black"
+                                   Foreground="#2E7D32" HorizontalAlignment="Center"/>
+                        <TextBlock Text="Geschlossen" Foreground="#777777" FontSize="12" HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </Border>
+            </Grid>
+
+            <TextBlock Grid.Row="2" Text="📋 Alle Tickets" FontSize="16" FontWeight="Bold"
+                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,10"/>
+
+            <Border Grid.Row="3" Classes="Card" Padding="0">
+                <DataGrid x:Name="AdminGrid" Classes="Modern"
+                          DoubleTapped="Grid_DoubleTapped">
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="#" Binding="{Binding Id}" Width="50"/>
+                        <DataGridTextColumn Header="Titel" Binding="{Binding Title}" Width="*"/>
+                        <DataGridTemplateColumn Header="Status" Width="120">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Border CornerRadius="10" Padding="8,3" Margin="2"
+                                            Background="#E3F2FD">
+                                        <TextBlock Text="{Binding Status}"
+                                                   Foreground="#1565C0"
+                                                   FontSize="11" FontWeight="SemiBold"/>
+                                    </Border>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="Priorität" Width="100">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Priority}"
+                                               Foreground="#E65100"
+                                               FontWeight="SemiBold" FontSize="12" Margin="4,0"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="Ersteller" Binding="{Binding CreatedByName}" Width="130"/>
+                        <DataGridTextColumn Header="Zugewiesen" Binding="{Binding AssignedToName}" Width="130"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</UserControl>

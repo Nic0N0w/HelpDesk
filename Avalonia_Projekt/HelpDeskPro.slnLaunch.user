@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Neues Profil",
+    "Projects": [
+      {
+        "Path": "HelpDeskPro.Api\\HelpDeskPro.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "HelpDeskPro.Avalonia\\HelpDeskPro.Avalonia.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

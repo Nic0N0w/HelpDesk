@@ -1,0 +1,54 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="HelpDeskPro.Avalonia.Views.LoginWindow"
+        Title="HelpDesk Pro – Anmelden"
+        Height="500" Width="420"
+        WindowStartupLocation="CenterScreen"
+        CanResize="False"
+        Background="#1F4E79">
+
+    <Grid>
+        <Border Background="White" CornerRadius="12" Margin="30"
+                Padding="36,32"
+                BoxShadow="0 4 30 0 #40000000">
+            <StackPanel>
+                <!-- Logo -->
+                <TextBlock Text="🖥️ HelpDesk Pro" FontSize="26" FontWeight="Bold"
+                           Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,4"/>
+                <TextBlock Text="Internes IT-Support-Portal" FontSize="13"
+                           Foreground="#666666" Margin="0,0,0,28"/>
+
+                <!-- Error -->
+                <Border x:Name="ErrorBorder" Background="#FFF0F0" BorderBrush="#FFCCCC"
+                        BorderThickness="1" CornerRadius="6" Padding="12,8"
+                        Margin="0,0,0,12" IsVisible="False">
+                    <TextBlock x:Name="ErrorText" Foreground="#C0392B" FontSize="12" TextWrapping="Wrap"/>
+                </Border>
+
+                <!-- Email -->
+                <TextBlock Text="E-Mail-Adresse" FontSize="12" FontWeight="SemiBold"
+                           Foreground="#333333" Margin="0,0,0,6"/>
+                <TextBox x:Name="EmailBox" Classes="Modern"
+                         Margin="0,0,0,16"/>
+
+                <!-- Password -->
+                <TextBlock Text="Passwort" FontSize="12" FontWeight="SemiBold"
+                           Foreground="#333333" Margin="0,0,0,6"/>
+                <TextBox x:Name="PasswordBox" Classes="Modern"
+                         PasswordChar="●"
+                         Margin="0,0,0,24"/>
+
+                <!-- Login Button -->
+                <Button Content="Anmelden" Classes="Primary"
+                        HorizontalAlignment="Stretch"
+                        HorizontalContentAlignment="Center"
+                        Height="42" FontSize="14"
+                        Click="LoginButton_Click"/>
+
+                <TextBlock Text="💡 Demo-Accounts: anna@firma.at (Password123!), max@firma.at (Password456!), lisa@firma.at (Password789!), tom@firma.at (Password000!)"
+                           FontSize="10" Foreground="#999999" TextAlignment="Center"
+                           Margin="0,16,0,0" TextWrapping="Wrap"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

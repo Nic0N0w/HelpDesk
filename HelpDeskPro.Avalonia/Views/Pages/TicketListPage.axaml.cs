@@ -1,32 +1,87 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Avalonia.Controls;
 using Avalonia.Input;
 using Avalonia.Interactivity;
+using HelpDeskPro.Avalonia.Models;
+using HelpDeskPro.Avalonia.Services;
 
 namespace HelpDeskPro.Avalonia.Views.Pages;
 
 public partial class TicketListPage : UserControl
 {
-    public TicketListPage()
+    private readonly ApiService _api;
+    private readonly AuthState _auth;
+    private readonly MainWindow _main;
+    private List<TicketDto> _allTickets = new();
+
+    public TicketListPage() : this(App.ApiService, App.AuthState, null!) { }
+
+    public TicketListPage(ApiService api, AuthState auth, MainWindow main)
     {
+        _api = api;
+        _auth = auth;
+        _main = main;
         InitializeComponent();
+        Loaded += async (_, _) => await LoadTickets();
+
+        // Live-Suche beim Tippen
+        SearchBox.TextChanged += async (_, _) => await LoadTickets();
     }
 
-    private void NewTicket_Click(object sender, RoutedEventArgs e)
+    private async Task LoadTickets()
     {
-        var dialog = new NewTicketDialog();
-        dialog.ShowDialog(TopLevel.GetTopLevel(this) as Window ?? this.VisualRoot as Window);
+        try
+        {
+            if (StatusFilter == null || PriorityFilter == null)
+                return;
+
+            var status = (StatusFilter.SelectedItem as ComboBoxItem)?.Content?.ToString();
+            var priority = (PriorityFilter.SelectedItem as ComboBoxItem)?.Content?.ToString();
+            var search = SearchBox.Text ?? "";
+
+            if (status == "Alle Status") status = null;
+            if (priority == "Alle Prioritäten") priority = null;
+            if (string.IsNullOrWhiteSpace(search)) search = null;
+
+            _allTickets = await _api.GetTicketsAsync(status, priority, search) ?? new();
+            TicketGrid.ItemsSource = _allTickets;
+            CountText.Text = $"{_allTickets.Count} Ticket(s) gefunden";
+        }
+        catch (Exception ex)
+        {
+            CountText.Text = $"Fehler beim Laden: {ex.Message}";
+        }
     }
 
-    private void SearchBox_TextChanged(object? sender, RoutedEventArgs e) { /* TODO */ }
-    private void Filter_SelectionChanged(object? sender, SelectionChangedEventArgs e) { /* TODO */ }
+    private async void Filter_SelectionChanged(object? sender, SelectionChangedEventArgs e) => await LoadTickets();
 
-    private void ResetFilter_Click(object sender, RoutedEventArgs e)
+    private async void ResetFilter_Click(object sender, RoutedEventArgs e)
     {
         SearchBox.Text = string.Empty;
         StatusFilter.SelectedIndex = 0;
         PriorityFilter.SelectedIndex = 0;
+        await LoadTickets();
     }
 
-    private void TicketGrid_DoubleTapped(object? sender, TappedEventArgs e) { /* TODO */ }
+    private void NewTicket_Click(object sender, RoutedEventArgs e)
+    {
+        var dialog = new NewTicketDialog(_api, _auth);
+        dialog.ShowDialog(TopLevel.GetTopLevel(this) as Window ?? _main);
+        dialog.Closed += async (_, _) =>
+        {
+            if (dialog.DialogResult)
+                await LoadTickets();
+        };
+    }
+
+    private void TicketGrid_DoubleTapped(object? sender, TappedEventArgs e)
+    {
+        if (TicketGrid.SelectedItem is TicketDto ticket)
+            _main.NavigateToPage(new TicketDetailPage(_api, _auth, _main, ticket.Id), null);
+    }
+
     private void TicketGrid_SelectionChanged(object? sender, SelectionChangedEventArgs e) { }
 }

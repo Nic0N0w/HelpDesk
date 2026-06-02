@@ -1,0 +1,93 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="HelpDeskPro.Avalonia.Views.Pages.TicketListPage"
+             Background="{StaticResource BackgroundBrush}">
+
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <Grid Grid.Row="0" Margin="0,0,0,16">
+            <TextBlock Text="📋 Alle Tickets" FontSize="22" FontWeight="Bold"
+                       Foreground="{StaticResource PrimaryBrush}" VerticalAlignment="Center"/>
+            <Button Content="+ Neues Ticket" HorizontalAlignment="Right"
+                    Classes="Primary" Click="NewTicket_Click"/>
+        </Grid>
+
+        <!-- Filter Bar -->
+        <Border Grid.Row="1" Classes="Card" Margin="0,0,0,16" Padding="16,12">
+            <WrapPanel>
+                <TextBox x:Name="SearchBox" Classes="Modern"
+                         Width="220" Margin="0,0,10,0"
+                         Watermark="🔍 Suchen..."/>
+                <ComboBox x:Name="StatusFilter" Classes="Modern"
+                          Width="140" Margin="0,0,10,0"
+                          SelectionChanged="Filter_SelectionChanged"
+                          SelectedIndex="0">
+                    <ComboBoxItem Content="Alle Status"/>
+                    <ComboBoxItem Content="Open"/>
+                    <ComboBoxItem Content="InProgress"/>
+                    <ComboBoxItem Content="Closed"/>
+                </ComboBox>
+                <ComboBox x:Name="PriorityFilter" Classes="Modern"
+                          Width="150" Margin="0,0,10,0"
+                          SelectionChanged="Filter_SelectionChanged"
+                          SelectedIndex="0">
+                    <ComboBoxItem Content="Alle Prioritäten"/>
+                    <ComboBoxItem Content="Low"/>
+                    <ComboBoxItem Content="Medium"/>
+                    <ComboBoxItem Content="High"/>
+                    <ComboBoxItem Content="Critical"/>
+                </ComboBox>
+                <Button Content="Zurücksetzen" Classes="Secondary"
+                        Click="ResetFilter_Click"/>
+            </WrapPanel>
+        </Border>
+
+        <!-- DataGrid -->
+        <Border Grid.Row="2" Classes="Card" Padding="0">
+            <DataGrid x:Name="TicketGrid" Classes="Modern"
+                      DoubleTapped="TicketGrid_DoubleTapped"
+                      SelectionChanged="TicketGrid_SelectionChanged">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="#" Binding="{Binding Id}" Width="50"/>
+                    <DataGridTextColumn Header="Titel" Binding="{Binding Title}" Width="*"/>
+                    <DataGridTemplateColumn Header="Status" Width="120">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius="10" Padding="8,3" Margin="2"
+                                        Background="#E3F2FD">
+                                    <TextBlock Text="{Binding Status}"
+                                               Foreground="#1565C0"
+                                               FontSize="11" FontWeight="SemiBold"/>
+                                </Border>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTemplateColumn Header="Priorität" Width="100">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Priority}"
+                                           Foreground="#E65100"
+                                           FontWeight="SemiBold" FontSize="12" Margin="4,0"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
+                    <DataGridTextColumn Header="Erstellt von" Binding="{Binding CreatedByName}" Width="130"/>
+                    <DataGridTextColumn Header="Zugewiesen" Binding="{Binding AssignedToName}" Width="130"/>
+                    <DataGridTextColumn Header="Datum" Binding="{Binding CreatedAt, StringFormat=\{0:dd.MM.yyyy\}}" Width="90"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Border>
+
+        <!-- Status Bar -->
+        <TextBlock x:Name="CountText" Grid.Row="3" Foreground="#888888"
+                   FontSize="12" Margin="0,8,0,0" HorizontalAlignment="Right"
+                   Text="0 Tickets"/>
+    </Grid>
+</UserControl>

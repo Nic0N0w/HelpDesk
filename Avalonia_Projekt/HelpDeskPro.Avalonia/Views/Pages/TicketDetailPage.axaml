@@ -1,0 +1,194 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="HelpDeskPro.Avalonia.Views.Pages.TicketDetailPage"
+             Background="{StaticResource BackgroundBrush}">
+
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <Grid Margin="24">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+
+            <!-- Back + Title -->
+            <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,16">
+                <Button Content="← Zurück" Click="Back_Click"
+                        Background="Transparent" BorderThickness="0"
+                        Foreground="{StaticResource AccentBrush}"
+                        FontSize="13" Cursor="Hand" Padding="0,0,16,0"/>
+                <TextBlock x:Name="TitleText" FontSize="20" FontWeight="Bold"
+                           Foreground="{StaticResource PrimaryBrush}"
+                           VerticalAlignment="Center"
+                           Text="Ticket Titel"/>
+            </StackPanel>
+
+            <!-- Two-column layout -->
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="16"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- ── Left: Info + Actions ── -->
+                <StackPanel Grid.Column="0">
+
+                    <!-- Details Card -->
+                    <Border Classes="Card" Margin="0,0,0,16">
+                        <StackPanel>
+                            <TextBlock Text="Details" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+                            <Grid Margin="0,4">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="Auto"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="130"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <!-- Row 0: Status -->
+                                <TextBlock Grid.Row="0" Grid.Column="0" Text="Status" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="StatusText" Grid.Row="0" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <!-- Row 1: Priorität -->
+                                <TextBlock Grid.Row="1" Grid.Column="0" Text="Priorität" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="PriorityText" Grid.Row="1" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <!-- Row 2: Erstellt von -->
+                                <TextBlock Grid.Row="2" Grid.Column="0" Text="Erstellt von" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="CreatedByText" Grid.Row="2" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <!-- Row 3: Zugewiesen -->
+                                <TextBlock Grid.Row="3" Grid.Column="0" Text="Zugewiesen an" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="AssignedToText" Grid.Row="3" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <!-- Row 4: Erstellt am -->
+                                <TextBlock Grid.Row="4" Grid.Column="0" Text="Erstellt am" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="CreatedAtText" Grid.Row="4" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <!-- Row 5: Geändert -->
+                                <TextBlock Grid.Row="5" Grid.Column="0" Text="Geändert" FontSize="12" FontWeight="SemiBold" Foreground="#555"/>
+                                <TextBlock x:Name="UpdatedAtText" Grid.Row="5" Grid.Column="1" Text="–" FontSize="12"/>
+                            </Grid>
+
+                            <TextBlock Text="Beschreibung" FontSize="12" FontWeight="SemiBold"
+                                       Foreground="#555555" Margin="0,12,0,4"/>
+                            <TextBlock x:Name="DescText" TextWrapping="Wrap" FontSize="13"
+                                       Foreground="#333333" LineHeight="20"
+                                       Text=""/>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Status ändern -->
+                    <Border Classes="Card" Margin="0,0,0,16">
+                        <StackPanel>
+                            <TextBlock Text="Status ändern" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+                            <Border x:Name="StatusErrorBorder" Background="#FFF0F0"
+                                    BorderBrush="#FFCCCC" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,8" IsVisible="False">
+                                <TextBlock x:Name="StatusErrorText" Foreground="#C0392B" FontSize="12"/>
+                            </Border>
+                            <Border x:Name="StatusSuccessBorder" Background="#E8F5E9"
+                                    BorderBrush="#A5D6A7" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,8" IsVisible="False">
+                                <TextBlock x:Name="StatusSuccessText" Foreground="#2E7D32" FontSize="12"/>
+                            </Border>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <ComboBox x:Name="StatusCombo" Grid.Column="0" Classes="Modern"
+                                          SelectedIndex="0">
+                                    <ComboBoxItem Content="Open"/>
+                                    <ComboBoxItem Content="InProgress"/>
+                                    <ComboBoxItem Content="Closed"/>
+                                </ComboBox>
+                                <Button Grid.Column="2" Content="Setzen"
+                                        Classes="Primary"
+                                        Click="ChangeStatus_Click"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+
+                    <!-- Zuweisung (Admin only) -->
+                    <Border x:Name="AssignPanel" Classes="Card" IsVisible="False">
+                        <StackPanel>
+                            <TextBlock Text="Ticket zuweisen" FontSize="15" FontWeight="Bold"
+                                       Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="8"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <ComboBox x:Name="AssignCombo" Grid.Column="0" Classes="Modern"/>
+                                <Button Grid.Column="2" Content="Zuweisen"
+                                        Classes="Secondary"
+                                        Click="Assign_Click"/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+
+                <!-- ── Right: Kommentare ── -->
+                <Border Grid.Column="2" Classes="Card">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="*" MinHeight="200" MaxHeight="320"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+
+                        <TextBlock x:Name="CommentHeader" Grid.Row="0" FontSize="15" FontWeight="Bold"
+                                   Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"
+                                   Text="💬 Kommentare (0)"/>
+
+                        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                            <ItemsControl x:Name="CommentsList">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Background="#F5F8FC" CornerRadius="8"
+                                                Padding="12,10" Margin="0,0,0,8">
+                                            <StackPanel>
+                                                <Grid Margin="0,0,0,4">
+                                                    <TextBlock Text="{Binding AuthorName}"
+                                                               FontWeight="Bold" FontSize="12"/>
+                                                    <TextBlock Text="{Binding CreatedAt}"
+                                                               HorizontalAlignment="Right"
+                                                               Foreground="#888888" FontSize="11"/>
+                                                </Grid>
+                                                <TextBlock Text="{Binding Text}" TextWrapping="Wrap"
+                                                           FontSize="13" Foreground="#333333"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+
+                        <!-- Kommentar Editor -->
+                        <StackPanel Grid.Row="2" Margin="0,12,0,0">
+                            <TextBlock Text="Neuer Kommentar" FontSize="12" FontWeight="SemiBold"
+                                       Foreground="#555555" Margin="0,0,0,6"/>
+                            <Border x:Name="CommentErrorBorder" Background="#FFF0F0"
+                                    BorderBrush="#FFCCCC" BorderThickness="1" CornerRadius="6"
+                                    Padding="10,6" Margin="0,0,0,6" IsVisible="False">
+                                <TextBlock x:Name="CommentErrorText" Foreground="#C0392B" FontSize="12"/>
+                            </Border>
+                            <TextBox x:Name="CommentBox" Classes="Modern"
+                                     AcceptsReturn="True" TextWrapping="Wrap"
+                                     Height="80" Margin="0,0,0,8"/>
+                            <Button Content="💬 Kommentar absenden" Classes="Primary"
+                                    HorizontalAlignment="Stretch"
+                                    HorizontalContentAlignment="Center"
+                                    Click="AddComment_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
+    </ScrollViewer>
+</UserControl>
