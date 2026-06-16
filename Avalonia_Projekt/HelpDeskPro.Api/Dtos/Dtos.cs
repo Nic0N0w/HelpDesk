@@ -25,6 +25,11 @@ public record LoginResponse(
     [Required]
     string Token
 );
+// Assignee
+public record AssigneeResponse(
+    int UserId,
+    [Required][StringLength(100)] string Name
+);
 
 // Ticket
 public record CreateTicketRequest(
@@ -45,24 +50,33 @@ public record UpdateStatusRequest(
 
 public record TicketResponse(
     int Id,
-    [Required]
-    [StringLength(200)]
-    string Title,
-    [StringLength(2000)]
-    string Description,
+    [Required] [StringLength(200)] string Title,
+    [StringLength(2000)] string Description,
     TicketStatus Status,
     Priority Priority,
     DateTime CreatedAt,
     DateTime? UpdatedAt,
     int CreatedByUserId,
-    [Required]
-    [StringLength(100)]
-    string CreatedByName,
+    [Required] [StringLength(100)] string CreatedByName,
+
     int? AssignedToUserId,
-    [StringLength(100)]
-    string? AssignedToName,
+    [StringLength(100)] string? AssignedToName,
+
+    // Many-to-many assignees list
+    IEnumerable<AssigneeResponse> Assignees,
     IEnumerable<CommentResponse> Comments
 );
+
+public record SetAssigneesRequest(
+    [Required] IEnumerable<int> UserIds
+);
+public record AddAssigneeRequest(
+    [Range(1, int.MaxValue)] int UserId
+);
+public record RemoveAssigneeRequest(
+    [Range(1, int.MaxValue)] int UserId
+);
+
 
 // Comment
 public record AddCommentRequest(

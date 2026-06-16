@@ -12,13 +12,17 @@ public class TicketRepository(AppDbContext db) : ITicketRepository
             .Include(t => t.CreatedBy)
             .Include(t => t.AssignedTo)
             .Include(t => t.Comments).ThenInclude(c => c.Author)
+            .Include(t => t.TicketUsers).ThenInclude(tu => tu.User)
             .FirstOrDefaultAsync(t => t.Id == id);
 
     public async Task<IEnumerable<Ticket>> GetByUserIdAsync(int userId) =>
         await db.Tickets
             .Include(t => t.CreatedBy)
             .Include(t => t.AssignedTo)
-            .Where(t => t.CreatedByUserId == userId || t.AssignedToUserId == userId)
+            .Include(t => t.TicketUsers).ThenInclude(tu => tu.User)
+            .Where(t => t.CreatedByUserId == userId
+                     || t.AssignedToUserId == userId
+                     || t.TicketUsers.Any(tu => tu.UserId == userId))
             .ToListAsync();
 
     public async Task<IEnumerable<Ticket>> GetAllAsync() =>
@@ -26,6 +30,7 @@ public class TicketRepository(AppDbContext db) : ITicketRepository
             .Include(t => t.CreatedBy)
             .Include(t => t.AssignedTo)
             .Include(t => t.Comments).ThenInclude(c => c.Author)
+            .Include(t => t.TicketUsers).ThenInclude(tu => tu.User)
             .ToListAsync();
 
     public async Task<Ticket> CreateAsync(Ticket ticket)
@@ -41,6 +46,26 @@ public class TicketRepository(AppDbContext db) : ITicketRepository
         db.Tickets.Update(ticket);
         await db.SaveChangesAsync();
         return ticket;
+    }
+
+    public async Task AddAssigneeAsync(int ticketId, int userId)
+    {
+        if (!await db.TicketUsers.AnyAsync(tu => tu.TicketId == ticketId && tu.UserId == userId))
+        {
+            db.TicketUsers.Add(new TicketUser { TicketId = ticketId, UserId = userId });
+            await db.SaveChangesAsync();
+        }
+    }
+
+    public async Task RemoveAssigneeAsync(int ticketId, int userId)
+    {
+        var entry = await db.TicketUsers
+            .FirstOrDefaultAsync(tu => tu.TicketId == ticketId && tu.UserId == userId);
+        if (entry is not null)
+        {
+            db.TicketUsers.Remove(entry);
+            await db.SaveChangesAsync();
+        }
     }
 }
 

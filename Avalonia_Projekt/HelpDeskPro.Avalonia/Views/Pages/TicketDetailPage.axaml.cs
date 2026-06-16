@@ -40,7 +40,7 @@ public partial class TicketDetailPage : UserControl
         StatusText.Text = t.Status.ToString();
         PriorityText.Text = t.Priority.ToString();
         CreatedByText.Text = t.CreatedByName;
-        AssignedToText.Text = t.AssignedToName ?? "–";
+        AssignedToText.Text = t.AssigneesDisplay;
         CreatedAtText.Text = t.CreatedAt.ToString("dd.MM.yyyy HH:mm");
         UpdatedAtText.Text = t.UpdatedAt.HasValue ? t.UpdatedAt.Value.ToString("dd.MM.yyyy HH:mm") : "–";
 
@@ -57,13 +57,18 @@ public partial class TicketDetailPage : UserControl
         CommentHeader.Text = $"💬 Kommentare ({t.Comments.Count})";
         CommentsList.ItemsSource = t.Comments.OrderBy(c => c.CreatedAt).ToList();
 
-        // Admin: Zuweisung
+        // Admin: Zuordnung (n:m)
         if (App.AuthState.CurrentUser?.Role == UserRole.Admin)
         {
             AssignPanel.IsVisible = true;
-            AssignCombo.ItemsSource = _users;
-            if (t.AssignedToUserId.HasValue)
-                AssignCombo.SelectedItem = _users.FirstOrDefault(u => u.Id == t.AssignedToUserId);
+
+            // Aktuelle Assignees anzeigen
+            AssigneesListControl.ItemsSource = t.Assignees.ToList();
+
+            // Nur User anbieten, die noch nicht zugeordnet sind
+            var assignedIds = t.Assignees.Select(a => a.UserId).ToHashSet();
+            AddAssignCombo.ItemsSource = _users.Where(u => !assignedIds.Contains(u.Id)).ToList();
+            AddAssignCombo.SelectedIndex = -1;
         }
         else
         {
@@ -93,10 +98,18 @@ public partial class TicketDetailPage : UserControl
         }
     }
 
-    private async void Assign_Click(object sender, RoutedEventArgs e)
+    private async void AddAssignee_Click(object sender, RoutedEventArgs e)
     {
-        if (AssignCombo.SelectedItem is not UserDto user) return;
-        var updated = await App.ApiService.AssignTicketAsync(_ticketId, user.Id);
+        if (AddAssignCombo.SelectedItem is not UserDto user) return;
+        var updated = await App.ApiService.AddAssigneeAsync(_ticketId, user.Id);
+        if (updated is not null) { _ticket = updated; RenderTicket(); }
+    }
+
+    private async void RemoveAssignee_Click(object sender, RoutedEventArgs e)
+    {
+        if (sender is not Button btn) return;
+        if (btn.Tag is not int userId) return;
+        var updated = await App.ApiService.RemoveAssigneeAsync(_ticketId, userId);
         if (updated is not null) { _ticket = updated; RenderTicket(); }
     }
 

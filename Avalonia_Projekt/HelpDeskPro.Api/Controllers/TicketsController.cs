@@ -77,6 +77,34 @@ public class TicketsController(
         return Ok(MapToResponse(full!));
     }
 
+    // POST /api/tickets/{id}/assignees
+    [HttpPost("{id}/assignees")]
+    [ProducesResponseType(typeof(TicketResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> AddAssignee(int id, [FromBody] AddAssigneeRequest request)
+    {
+        var ticket = await tickets.GetByIdAsync(id);
+        if (ticket is null) return NotFound($"Ticket {id} nicht gefunden.");
+
+        await tickets.AddAssigneeAsync(id, request.UserId);
+        var full = await tickets.GetByIdAsync(id);
+        return Ok(MapToResponse(full!));
+    }
+
+    // DELETE /api/tickets/{id}/assignees/{userId}
+    [HttpDelete("{id}/assignees/{userId}")]
+    [ProducesResponseType(typeof(TicketResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status404NotFound)]
+    public async Task<IActionResult> RemoveAssignee(int id, int userId)
+    {
+        var ticket = await tickets.GetByIdAsync(id);
+        if (ticket is null) return NotFound($"Ticket {id} nicht gefunden.");
+
+        await tickets.RemoveAssigneeAsync(id, userId);
+        var full = await tickets.GetByIdAsync(id);
+        return Ok(MapToResponse(full!));
+    }
+
     // POST /api/tickets/{id}/comments
     [HttpPost("{id}/comments")]
     [ProducesResponseType(typeof(CommentResponse), StatusCodes.Status201Created)]
@@ -135,6 +163,7 @@ public class TicketsController(
         t.CreatedAt, t.UpdatedAt,
         t.CreatedByUserId, t.CreatedBy?.Name ?? "–",
         t.AssignedToUserId, t.AssignedTo?.Name,
+        t.TicketUsers.Select(tu => new AssigneeResponse(tu.UserId, tu.User?.Name ?? "–")),
         t.Comments.Select(c => new CommentResponse(c.Id, c.Text, c.CreatedAt, c.AuthorId, c.Author?.Name ?? "–"))
     );
 }

@@ -1478,11 +1478,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\HelpDeskPro.Avalonia.csproj",
+      "projectUniqueName": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\HelpDeskPro.Avalonia.csproj",
       "projectName": "HelpDeskPro.Avalonia",
-      "projectPath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\HelpDeskPro.Avalonia.csproj",
+      "projectPath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\HelpDeskPro.Avalonia.csproj",
       "packagesPath": "C:\\Users\\Maxi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\obj\\",
+      "outputPath": "C:\\Users\\Maxi\\OneDrive - Schulzentrum Ybbs\\Dokumente\\Schule\\4.Klasse\\SEW\\WPF_Projekt\\HelpDesk\\Avalonia_Projekt\\HelpDeskPro.Avalonia\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1501,7 +1501,6 @@
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {}
         }
@@ -1516,11 +1515,10 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
-        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Avalonia": {
@@ -1560,7 +1558,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

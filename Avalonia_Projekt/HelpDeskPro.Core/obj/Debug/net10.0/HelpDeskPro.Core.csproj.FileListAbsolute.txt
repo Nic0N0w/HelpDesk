@@ -23,3 +23,16 @@ C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Pro
 C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\refint\HelpDeskPro.Core.dll
 C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.pdb
 C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\ref\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\bin\Debug\net10.0\HelpDeskPro.Core.deps.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\bin\Debug\net10.0\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\bin\Debug\net10.0\HelpDeskPro.Core.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.csproj.AssemblyReference.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.AssemblyInfoInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.AssemblyInfo.cs
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.csproj.CoreCompileInputs.cache
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.sourcelink.json
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\refint\HelpDeskPro.Core.dll
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\HelpDeskPro.Core.pdb
+C:\Users\Maxi\OneDrive - Schulzentrum Ybbs\Dokumente\Schule\4.Klasse\SEW\WPF_Projekt\HelpDesk\Avalonia_Projekt\HelpDeskPro.Core\obj\Debug\net10.0\ref\HelpDeskPro.Core.dll

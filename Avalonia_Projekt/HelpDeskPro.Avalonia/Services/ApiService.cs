@@ -98,6 +98,20 @@ public class ApiService
         return resp.IsSuccessStatusCode;
     }
 
+    public async Task<TicketDto?> AddAssigneeAsync(int ticketId, int userId)
+    {
+        EnsureTokenHeader();
+        var resp = await _http.PostAsJsonAsync($"api/tickets/{ticketId}/assignees", new { userId });
+        return resp.IsSuccessStatusCode ? await resp.Content.ReadFromJsonAsync<TicketDto>() : null;
+    }
+
+    public async Task<TicketDto?> RemoveAssigneeAsync(int ticketId, int userId)
+    {
+        EnsureTokenHeader();
+        var resp = await _http.DeleteAsync($"api/tickets/{ticketId}/assignees/{userId}");
+        return resp.IsSuccessStatusCode ? await resp.Content.ReadFromJsonAsync<TicketDto>() : null;
+    }
+
     // Users
     public Task<List<UserDto>?> GetUsersAsync()
     {

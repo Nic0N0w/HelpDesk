@@ -112,6 +112,16 @@ using (var scope = app.Services.CreateScope())
         );
         db.SaveChanges();
 
+        // Demo-Zuordnungen (n:m)
+        db.TicketUsers.AddRange(
+            new TicketUser { TicketId = 1, UserId = 2 },
+            new TicketUser { TicketId = 1, UserId = 3 },
+            new TicketUser { TicketId = 2, UserId = 1 },
+            new TicketUser { TicketId = 2, UserId = 4 },
+            new TicketUser { TicketId = 3, UserId = 2 }
+        );
+        db.SaveChanges();
+
         // Demo-Kommentare
         db.Comments.AddRange(
             new Comment { TicketId = 2, Text = "VPN-Client wurde installiert, warte auf Freigabe vom Netzwerk-Team.", AuthorId = 1, CreatedAt = DateTime.UtcNow.AddHours(-5) },

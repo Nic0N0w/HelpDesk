@@ -10,6 +10,8 @@ public interface ITicketRepository
     Task<Ticket> CreateAsync(Ticket ticket);
     Task<Ticket> UpdateAsync(Ticket ticket);
     Task<IEnumerable<Ticket>> GetAllAsync();
+    Task AddAssigneeAsync(int ticketId, int userId);
+    Task RemoveAssigneeAsync(int ticketId, int userId);
 }
 
 public interface IUserRepository

@@ -8,6 +8,7 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
     public DbSet<User> Users => Set<User>();
     public DbSet<Ticket> Tickets => Set<Ticket>();
     public DbSet<Comment> Comments => Set<Comment>();
+    public DbSet<TicketUser> TicketUsers => Set<TicketUser>();
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -33,5 +34,20 @@ public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(op
             .WithMany()
             .HasForeignKey(c => c.AuthorId)
             .OnDelete(DeleteBehavior.Restrict);
+
+        modelBuilder.Entity<TicketUser>()
+            .HasKey(tu => new { tu.TicketId, tu.UserId });
+
+        modelBuilder.Entity<TicketUser>()
+            .HasOne(tu => tu.Ticket)
+            .WithMany(t => t.TicketUsers)
+            .HasForeignKey(tu => tu.TicketId)
+            .OnDelete(DeleteBehavior.Cascade);
+
+        modelBuilder.Entity<TicketUser>()
+            .HasOne(tu => tu.User)
+            .WithMany(u => u.TicketUsers)
+            .HasForeignKey(tu => tu.UserId)
+            .OnDelete(DeleteBehavior.Cascade);
     }
 }

@@ -62,7 +62,7 @@
                                 <TextBlock x:Name="CreatedByText" Grid.Row="2" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
                                 <!-- Row 3: Zugewiesen -->
                                 <TextBlock Grid.Row="3" Grid.Column="0" Text="Zugewiesen an" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
-                                <TextBlock x:Name="AssignedToText" Grid.Row="3" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
+                                <TextBlock x:Name="AssignedToText" Grid.Row="3" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8" TextWrapping="Wrap"/>
                                 <!-- Row 4: Erstellt am -->
                                 <TextBlock Grid.Row="4" Grid.Column="0" Text="Erstellt am" FontSize="12" FontWeight="SemiBold" Foreground="#555" Margin="0,0,0,8"/>
                                 <TextBlock x:Name="CreatedAtText" Grid.Row="4" Grid.Column="1" Text="–" FontSize="12" Margin="0,0,0,8"/>
@@ -113,21 +113,46 @@
                         </StackPanel>
                     </Border>
 
-                    <!-- Zuweisung (Admin only) -->
+                    <!-- Zuordnung (Admin only) -->
                     <Border x:Name="AssignPanel" Classes="Card" IsVisible="False">
                         <StackPanel>
-                            <TextBlock Text="Ticket zuweisen" FontSize="15" FontWeight="Bold"
+                            <TextBlock Text="Zugeordnete User" FontSize="15" FontWeight="Bold"
                                        Foreground="{StaticResource PrimaryBrush}" Margin="0,0,0,12"/>
+
+                            <!-- Aktuelle Assignees -->
+                            <ItemsControl x:Name="AssigneesListControl" Margin="0,0,0,10">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Margin="0,0,0,4">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+                                            <TextBlock Grid.Column="0" Text="{Binding Name}"
+                                                       FontSize="13" VerticalAlignment="Center"/>
+                                            <Button Grid.Column="1" Content="Entfernen"
+                                                    Classes="Secondary"
+                                                    FontSize="11" Padding="8,4"
+                                                    Tag="{Binding UserId}"
+                                                    Click="RemoveAssignee_Click"/>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+
+                            <!-- User hinzufügen -->
+                            <TextBlock Text="User hinzufügen" FontSize="12" FontWeight="SemiBold"
+                                       Foreground="#555" Margin="0,4,0,6"/>
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="8"/>
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
-                                <ComboBox x:Name="AssignCombo" Grid.Column="0" Classes="Modern"/>
-                                <Button Grid.Column="2" Content="Zuweisen"
-                                        Classes="Secondary"
-                                        Click="Assign_Click"/>
+                                <ComboBox x:Name="AddAssignCombo" Grid.Column="0" Classes="Modern"/>
+                                <Button Grid.Column="2" Content="Hinzufügen"
+                                        Classes="Primary"
+                                        Click="AddAssignee_Click"/>
                             </Grid>
                         </StackPanel>
                     </Border>

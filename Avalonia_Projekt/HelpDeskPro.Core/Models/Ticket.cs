@@ -28,4 +28,5 @@ public class Ticket
     public User? CreatedBy { get; set; }
     public User? AssignedTo { get; set; }
     public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+    public ICollection<TicketUser> TicketUsers { get; set; } = new List<TicketUser>();
 }
